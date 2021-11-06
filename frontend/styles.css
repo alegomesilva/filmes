@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    background-color: #313535;
+}
+main {    
+    flex: 1;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+header, footer {
+    width: 100%;
+}
+
+.card-img-top {
+    width: 60% !important;
+    height: auto !important;
+    margin: 0 auto;
+    border-radius: 5px;
+}
